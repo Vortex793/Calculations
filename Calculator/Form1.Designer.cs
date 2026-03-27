@@ -41,9 +41,10 @@
             // btnPlus
             // 
             this.btnPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPlus.Location = new System.Drawing.Point(43, 60);
+            this.btnPlus.Location = new System.Drawing.Point(86, 115);
+            this.btnPlus.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnPlus.Name = "btnPlus";
-            this.btnPlus.Size = new System.Drawing.Size(75, 63);
+            this.btnPlus.Size = new System.Drawing.Size(150, 121);
             this.btnPlus.TabIndex = 0;
             this.btnPlus.Text = "+";
             this.btnPlus.UseVisualStyleBackColor = true;
@@ -52,9 +53,10 @@
             // btnMinus
             // 
             this.btnMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMinus.Location = new System.Drawing.Point(43, 129);
+            this.btnMinus.Location = new System.Drawing.Point(86, 248);
+            this.btnMinus.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnMinus.Name = "btnMinus";
-            this.btnMinus.Size = new System.Drawing.Size(75, 63);
+            this.btnMinus.Size = new System.Drawing.Size(150, 121);
             this.btnMinus.TabIndex = 1;
             this.btnMinus.Text = "-";
             this.btnMinus.UseVisualStyleBackColor = true;
@@ -63,9 +65,10 @@
             // btnDivide
             // 
             this.btnDivide.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDivide.Location = new System.Drawing.Point(43, 198);
+            this.btnDivide.Location = new System.Drawing.Point(86, 381);
+            this.btnDivide.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnDivide.Name = "btnDivide";
-            this.btnDivide.Size = new System.Drawing.Size(75, 63);
+            this.btnDivide.Size = new System.Drawing.Size(150, 121);
             this.btnDivide.TabIndex = 2;
             this.btnDivide.Text = "/";
             this.btnDivide.UseVisualStyleBackColor = true;
@@ -74,9 +77,10 @@
             // btnMultiply
             // 
             this.btnMultiply.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMultiply.Location = new System.Drawing.Point(43, 267);
+            this.btnMultiply.Location = new System.Drawing.Point(86, 513);
+            this.btnMultiply.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnMultiply.Name = "btnMultiply";
-            this.btnMultiply.Size = new System.Drawing.Size(75, 63);
+            this.btnMultiply.Size = new System.Drawing.Size(150, 121);
             this.btnMultiply.TabIndex = 3;
             this.btnMultiply.Text = "x";
             this.btnMultiply.UseVisualStyleBackColor = true;
@@ -85,48 +89,48 @@
             // lblPlus
             // 
             this.lblPlus.AutoSize = true;
-            this.lblPlus.Location = new System.Drawing.Point(138, 85);
+            this.lblPlus.Location = new System.Drawing.Point(276, 163);
+            this.lblPlus.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblPlus.Name = "lblPlus";
-            this.lblPlus.Size = new System.Drawing.Size(0, 13);
+            this.lblPlus.Size = new System.Drawing.Size(0, 25);
             this.lblPlus.TabIndex = 4;
             this.lblPlus.Visible = false;
-            this.lblPlus.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblMinus
             // 
             this.lblMinus.AutoSize = true;
-            this.lblMinus.Location = new System.Drawing.Point(138, 154);
+            this.lblMinus.Location = new System.Drawing.Point(276, 296);
+            this.lblMinus.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMinus.Name = "lblMinus";
-            this.lblMinus.Size = new System.Drawing.Size(0, 13);
+            this.lblMinus.Size = new System.Drawing.Size(0, 25);
             this.lblMinus.TabIndex = 5;
             this.lblMinus.Visible = false;
-            this.lblMinus.Click += new System.EventHandler(this.label2_Click);
             // 
             // lblDivide
             // 
             this.lblDivide.AutoSize = true;
-            this.lblDivide.Location = new System.Drawing.Point(138, 223);
+            this.lblDivide.Location = new System.Drawing.Point(276, 429);
+            this.lblDivide.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblDivide.Name = "lblDivide";
-            this.lblDivide.Size = new System.Drawing.Size(0, 13);
+            this.lblDivide.Size = new System.Drawing.Size(0, 25);
             this.lblDivide.TabIndex = 6;
             this.lblDivide.Visible = false;
-            this.lblDivide.Click += new System.EventHandler(this.label3_Click);
             // 
             // lblMultiply
             // 
             this.lblMultiply.AutoSize = true;
-            this.lblMultiply.Location = new System.Drawing.Point(138, 292);
+            this.lblMultiply.Location = new System.Drawing.Point(276, 562);
+            this.lblMultiply.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMultiply.Name = "lblMultiply";
-            this.lblMultiply.Size = new System.Drawing.Size(0, 13);
+            this.lblMultiply.Size = new System.Drawing.Size(0, 25);
             this.lblMultiply.TabIndex = 7;
             this.lblMultiply.Visible = false;
-            this.lblMultiply.Click += new System.EventHandler(this.label4_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(407, 385);
+            this.ClientSize = new System.Drawing.Size(814, 740);
             this.Controls.Add(this.lblMultiply);
             this.Controls.Add(this.lblDivide);
             this.Controls.Add(this.lblMinus);
@@ -135,6 +139,7 @@
             this.Controls.Add(this.btnDivide);
             this.Controls.Add(this.btnMinus);
             this.Controls.Add(this.btnPlus);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
