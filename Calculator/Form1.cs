@@ -10,9 +10,10 @@ using System.Windows.Forms;
 
 namespace Calculator
 {
-    public partial class Form1 : Form
+    public partial class Calculations : Form
     {
-        public Form1()
+        //Curtis Apfelbeck
+        public Calculations()
         {
             InitializeComponent();
         }
@@ -53,6 +54,28 @@ namespace Calculator
             lblPlus.Visible = false;
         }
 
+        private void button1_Enter(object sender, DragEventArgs e)
+        {
 
+        }
+
+        private void button1_Hover(object sender, EventArgs e)
+        {
+            lblPlus.Text = "12 + 12 = " + (12 + 12);
+            lblPlus.Visible = true;
+            lblMinus.Visible = false;
+            lblDivide.Visible = false;
+            lblMultiply.Visible = false;
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Calculations_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
